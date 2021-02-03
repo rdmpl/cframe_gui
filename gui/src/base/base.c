@@ -30,18 +30,69 @@ int isInContent(Shape *cur, Shape *content) {
   }
   getBorder(cur, &curLeft, &curRight, &curTop, &curButtom);
   getBorder(content, &conLeft, &conRight, &conTop, &conButtom);
-  if (curLeft < conLeft || curRight > conRight) {
-    return FALSE;
-  }
-  if (curTop < conTop || curButtom > conButtom) {
-    return FALSE;
-  }
-  return TRUE;
+  return curLeft >= conLeft && curRight <= conRight && curTop >= conTop &&
+         curButtom <= conButtom;
 }
+static inline int calItemX(int align, int winX, int winW, int itemW) {
+  if (align & ALIGN_HOR_LEFT) {
+    return winX;
+  } else if (align & ALIGN_HOR_MIDDLE) {
+    return winX + winW / 2 - itemW / 2;
+  }
+  return winX + winW - itemW;
+}
+static inline int calItemY(int align, int winY, int winH, int itemH) {
+  if (align & ALIGN_VER_TOP) {
+    return winY;
+  } else if (align & ALIGN_VER_MIDDLE) {
+    return winY + winH / 2 - itemH / 2;
+  }
+  return winY + winH - itemH;
+}
+
+static int calItemPosHor(Window *win) {
+  int i = 0;
+  win->item[0].base.x = win->shape.base.x;
+  win->item[0].base.y = calItemY(win->align, win->shape.base.y,
+                                 win->shape.height, win->item[0].height);
+  for (i = 1; i < win->itemCnt; ++i) {
+    win->item[i].base.x = win->item[i - 1].base.x + win->item[i - 1].width;
+    win->item[i].base.y = calItemY(win->align, win->shape.base.y,
+                                   win->shape.height, win->item[i].height);
+  }
+  return 0;
+}
+static int calItemPosVer(Window *win) {
+  int i = 0;
+  win->item[0].base.y = win->shape.base.y;
+  win->item[0].base.x = calItemX(win->align, win->shape.base.x,
+                                 win->shape.width, win->item[i].width);
+  for (i = 1; i < win->itemCnt; ++i) {
+    win->item[i].base.x = calItemX(win->align, win->shape.base.x,
+                                   win->shape.width, win->item[i].width);
+    win->item[i].base.y = win->item[i - 1].base.y + win->item[i - 1].height;
+  }
+  return 0;
+}
+static int calItemPos(Window *win) {
+  if (win->itemCnt == 0) {
+    return -1;
+  }
+  if (win->align & ALIGN_HOR_LAYOUT) {
+    calItemPosHor(win);
+  } else if (win->align & ALIGN_VER_LAYOUT) {
+    calItemPosVer(win);
+  }
+  return 0;
+};
 int winOpen(Window *win) {
   int i = 0;
   for (i = 0; i < win->itemCnt; ++i) {
     callShapeEvent(win, EVT_SHAPE_CREATE, i);
+  }
+  calItemPos(win);
+  for (i = 0; i < win->itemCnt; ++i) {
+    callShapeEvent(win, EVT_SHAPE_DRAW, i);
   }
   if (win->focusEnable) {
     callShapeEvent(win, EVT_SHAPE_FOCUS, win->focusID);
