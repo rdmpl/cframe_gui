@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-08T12:14:12.770Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36 Edg/89.0.774.68" etag="UijS1BXxQLRaTlpiejCF" version="14.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-08T12:14:32.578Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36 Edg/89.0.774.68" etag="kK3KGQbfz2QI1goG3Na-" version="14.5.8" type="github">
   <diagram id="31a1odPCAQR6ZfdLQplx" name="Page-1">
     <mxGraphModel dx="1422" dy="785" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -78,7 +78,7 @@
           <mxGeometry x="62" y="292" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eREuXdhC9TA6TmWjO2yI-32" value="流程结束" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;" parent="1" vertex="1">
-          <mxGeometry x="758" y="457.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="756" y="457.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5tQPKLHMJrH_xVSzaS01-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eREuXdhC9TA6TmWjO2yI-35" target="5tQPKLHMJrH_xVSzaS01-16">
           <mxGeometry relative="1" as="geometry" />
@@ -130,9 +130,6 @@
         </mxCell>
         <mxCell id="5tQPKLHMJrH_xVSzaS01-3" value="通过FTP服务获取回波采集数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="756" y="670" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="5tQPKLHMJrH_xVSzaS01-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="505" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5tQPKLHMJrH_xVSzaS01-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5tQPKLHMJrH_xVSzaS01-13" target="eREuXdhC9TA6TmWjO2yI-35">
           <mxGeometry relative="1" as="geometry" />
