@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-08T12:14:32.578Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36 Edg/89.0.774.68" etag="kK3KGQbfz2QI1goG3Na-" version="14.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-14T01:32:37.212Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36 Edg/89.0.774.76" etag="k-42xy_w1K27elhmvONw" version="14.5.8" type="github">
   <diagram id="31a1odPCAQR6ZfdLQplx" name="Page-1">
-    <mxGraphModel dx="1422" dy="785" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1240" dy="803" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -42,13 +42,13 @@
         <mxCell id="eREuXdhC9TA6TmWjO2yI-6" value="&amp;nbsp;判断待校正的CCM是否存在" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="327.5" y="200" width="105" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="5tQPKLHMJrH_xVSzaS01-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="eREuXdhC9TA6TmWjO2yI-12" target="eREuXdhC9TA6TmWjO2yI-32">
+        <mxCell id="5tQPKLHMJrH_xVSzaS01-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="eREuXdhC9TA6TmWjO2yI-12" target="eREuXdhC9TA6TmWjO2yI-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eREuXdhC9TA6TmWjO2yI-12" value="向采集中心返回校正失败应答" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="477.5" y="462.5" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="5tQPKLHMJrH_xVSzaS01-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eREuXdhC9TA6TmWjO2yI-15" target="eREuXdhC9TA6TmWjO2yI-22">
+        <mxCell id="5tQPKLHMJrH_xVSzaS01-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eREuXdhC9TA6TmWjO2yI-15" target="eREuXdhC9TA6TmWjO2yI-22" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="282" y="431" />
@@ -59,7 +59,7 @@
         <mxCell id="eREuXdhC9TA6TmWjO2yI-15" value="向选中的CCM下发参考校准请求" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="405.63" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="5tQPKLHMJrH_xVSzaS01-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eREuXdhC9TA6TmWjO2yI-22" target="eREuXdhC9TA6TmWjO2yI-26">
+        <mxCell id="5tQPKLHMJrH_xVSzaS01-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="eREuXdhC9TA6TmWjO2yI-22" target="eREuXdhC9TA6TmWjO2yI-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eREuXdhC9TA6TmWjO2yI-22" value="配置校准阵面的加特兰芯片" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -71,7 +71,7 @@
         <mxCell id="eREuXdhC9TA6TmWjO2yI-24" value="配置MCM参考校准寄存器" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="329" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5tQPKLHMJrH_xVSzaS01-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eREuXdhC9TA6TmWjO2yI-26" target="5tQPKLHMJrH_xVSzaS01-13">
+        <mxCell id="5tQPKLHMJrH_xVSzaS01-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="eREuXdhC9TA6TmWjO2yI-26" target="5tQPKLHMJrH_xVSzaS01-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eREuXdhC9TA6TmWjO2yI-26" value="配置当前CCM和选中的TRFE的参考校准模式寄存器" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;" parent="1" vertex="1">
@@ -80,41 +80,41 @@
         <mxCell id="eREuXdhC9TA6TmWjO2yI-32" value="流程结束" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;" parent="1" vertex="1">
           <mxGeometry x="756" y="457.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5tQPKLHMJrH_xVSzaS01-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eREuXdhC9TA6TmWjO2yI-35" target="5tQPKLHMJrH_xVSzaS01-16">
+        <mxCell id="5tQPKLHMJrH_xVSzaS01-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eREuXdhC9TA6TmWjO2yI-35" target="5tQPKLHMJrH_xVSzaS01-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eREuXdhC9TA6TmWjO2yI-35" value="向MCM发送寄存器配置完成信号" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;" parent="1" vertex="1">
           <mxGeometry x="62" y="490" width="120" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="5tQPKLHMJrH_xVSzaS01-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="eREuXdhC9TA6TmWjO2yI-39" target="eREuXdhC9TA6TmWjO2yI-42">
+        <mxCell id="5tQPKLHMJrH_xVSzaS01-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="eREuXdhC9TA6TmWjO2yI-39" target="eREuXdhC9TA6TmWjO2yI-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eREuXdhC9TA6TmWjO2yI-39" value="向CCM发送开始回波数据采集指令" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;" parent="1" vertex="1">
           <mxGeometry x="318" y="565" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5tQPKLHMJrH_xVSzaS01-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eREuXdhC9TA6TmWjO2yI-42" target="eREuXdhC9TA6TmWjO2yI-45">
+        <mxCell id="ejBv7Wmha6vaVea5cL51-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eREuXdhC9TA6TmWjO2yI-42" target="ejBv7Wmha6vaVea5cL51-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eREuXdhC9TA6TmWjO2yI-42" value="开始回波数据采集" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;" parent="1" vertex="1">
-          <mxGeometry x="64" y="565" width="120" height="40" as="geometry" />
+          <mxGeometry x="62" y="568" width="120" height="34" as="geometry" />
         </mxCell>
         <mxCell id="eREuXdhC9TA6TmWjO2yI-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="eREuXdhC9TA6TmWjO2yI-42" target="eREuXdhC9TA6TmWjO2yI-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5tQPKLHMJrH_xVSzaS01-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eREuXdhC9TA6TmWjO2yI-45" target="eREuXdhC9TA6TmWjO2yI-49">
+        <mxCell id="ejBv7Wmha6vaVea5cL51-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eREuXdhC9TA6TmWjO2yI-45" target="ejBv7Wmha6vaVea5cL51-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eREuXdhC9TA6TmWjO2yI-45" value="采集完成后通知MCM" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;" parent="1" vertex="1">
-          <mxGeometry x="64" y="680" width="120" height="40" as="geometry" />
+          <mxGeometry x="62" y="706" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eREuXdhC9TA6TmWjO2yI-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="eREuXdhC9TA6TmWjO2yI-45" target="eREuXdhC9TA6TmWjO2yI-45" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5tQPKLHMJrH_xVSzaS01-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="eREuXdhC9TA6TmWjO2yI-49" target="5tQPKLHMJrH_xVSzaS01-3">
+        <mxCell id="5tQPKLHMJrH_xVSzaS01-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="eREuXdhC9TA6TmWjO2yI-49" target="5tQPKLHMJrH_xVSzaS01-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eREuXdhC9TA6TmWjO2yI-49" value="向采集中心返回校正成功应答" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;" parent="1" vertex="1">
-          <mxGeometry x="320" y="670" width="120" height="60" as="geometry" />
+          <mxGeometry x="453" y="696" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eREuXdhC9TA6TmWjO2yI-54" value="CCM" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;shadow=0;glass=0;dashed=1;sketch=0;" parent="1" vertex="1">
           <mxGeometry x="100" y="760" width="40" height="20" as="geometry" />
@@ -125,23 +125,35 @@
         <mxCell id="eREuXdhC9TA6TmWjO2yI-56" value="采集中心" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;shadow=0;glass=0;dashed=1;sketch=0;" parent="1" vertex="1">
           <mxGeometry x="775" y="770" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5tQPKLHMJrH_xVSzaS01-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="5tQPKLHMJrH_xVSzaS01-3" target="eREuXdhC9TA6TmWjO2yI-32">
+        <mxCell id="5tQPKLHMJrH_xVSzaS01-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="5tQPKLHMJrH_xVSzaS01-3" target="eREuXdhC9TA6TmWjO2yI-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5tQPKLHMJrH_xVSzaS01-3" value="通过FTP服务获取回波采集数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="756" y="670" width="120" height="60" as="geometry" />
+        <mxCell id="5tQPKLHMJrH_xVSzaS01-3" value="通过FTP服务获取回波采集数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="756" y="696" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5tQPKLHMJrH_xVSzaS01-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5tQPKLHMJrH_xVSzaS01-13" target="eREuXdhC9TA6TmWjO2yI-35">
+        <mxCell id="5tQPKLHMJrH_xVSzaS01-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="5tQPKLHMJrH_xVSzaS01-13" target="eREuXdhC9TA6TmWjO2yI-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5tQPKLHMJrH_xVSzaS01-13" value="设置CCM+TRFE回波采集参数，准备采数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5tQPKLHMJrH_xVSzaS01-13" value="设置CCM+TRFE回波采集参数，准备采数" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="62" y="377" width="120" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="5tQPKLHMJrH_xVSzaS01-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5tQPKLHMJrH_xVSzaS01-16" target="eREuXdhC9TA6TmWjO2yI-39">
+        <mxCell id="5tQPKLHMJrH_xVSzaS01-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="5tQPKLHMJrH_xVSzaS01-16" target="eREuXdhC9TA6TmWjO2yI-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5tQPKLHMJrH_xVSzaS01-16" value="当MCM收到两个阵面的回复后，拉帧头" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5tQPKLHMJrH_xVSzaS01-16" value="当MCM收到两个阵面的回复后，拉帧头" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="477.5" width="120" height="59.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ejBv7Wmha6vaVea5cL51-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ejBv7Wmha6vaVea5cL51-1" target="eREuXdhC9TA6TmWjO2yI-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ejBv7Wmha6vaVea5cL51-1" value="采集完成关加特兰芯片对应通道和恢复FPGA寄存器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="62" y="631" width="120" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ejBv7Wmha6vaVea5cL51-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ejBv7Wmha6vaVea5cL51-4" target="eREuXdhC9TA6TmWjO2yI-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ejBv7Wmha6vaVea5cL51-4" value="恢复参考校正相关的FPGA寄存器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="289" y="696" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
